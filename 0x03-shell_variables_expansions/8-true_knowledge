@@ -1,2 +1,2 @@
 #!/bin/bash
-export $(($TRUEKNOWLEDGER + 128)) 
+export $((${TRUEKNOWLEDGER:-0} + 128)) 
