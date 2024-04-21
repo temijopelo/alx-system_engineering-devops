@@ -1,4 +1,7 @@
 # school server config options
-Host 52.87.255.183
+#
+Host web-01
+    Hostname 52.87.255.183
+    User ubuntu
+    PasswordAuthentication no
     IdentityFile ~/.ssh/school
-    Protocol 2
